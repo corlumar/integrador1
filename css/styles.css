@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252,213,213);
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header{
+    background-color: dodgerblue;
+}
+
+.main-banner {
+    flex-grow: 1;
+    background-color: #a82e9e;
+    
+}
+
+.main-container {
+    background-color: rgb(15, 240, 191);
+    grid-row: 1;
+}
+
+.main-footer {
+    background-color: black;
+    color:white;
+}
