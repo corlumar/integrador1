@@ -22,7 +22,24 @@
     </header>
     <!-- Banner con imagen principal e información -->
     <section class="main-banner">
-        MAIN BANNER
+
+        <picture>
+            <!-- Esta imagen se va a cargar bajo cierta condición -->
+            <source class="banner-img" srcset="/assets/images/banner4.png" alt="Imagen de consola de portada" media="(width > 768px)">
+
+            <!-- Imagen por defecto -->
+            <img class="" banner-img" src="/assets/images/banner2.png" alt="banner" srcset="/assets/images/banner2.png">
+        </picture>
+
+        <div class="banner-info">
+            <h1>Bienvenidos al Ecommerce de tecnologìa</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo excepturi architecto nam tempora, ea
+                beatae ratione quos dolore aut molestiae ducimus rem id pariatur commodi in nihil repudiandae incidunt
+                dolorem! Voluptatem placeat ea corrupti quod nostrum necessitatibus architecto, id explicabo.
+            </p>
+        </div>
+
     </section>
     <!-- Contenedor principal con sus respectivas secciones -->
     <main class="main-container">
@@ -33,37 +50,42 @@
             <!-- card section -->
             <div class="card-container">
 
-                <article class="card">
+                <div class="card-wrapper">
 
-                    <div class="card-header">
 
-                        <img class="card-img"src="/assets/images/productos/hp 60.png" alt="hp60" srcset="/assets/images/productos/hp 60.png">
+                    <article class="card">
 
-                        <img class="card-img"src="/assets/images/productos/hp 712.png" alt="hp712" srcset="/assets/images/productos/hp 712.png">
+                        <div class="card-header">
 
-                        <!-- <div class="actions">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-regular fa-eye"></i>
-                        </div> -->
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
 
-                        <!-- 
-                            imagen 
-                            iconos de favoritos
-                        -->
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
 
-                    </div>
-                    <div class="class-main">
-                        <div class="div-category">CONSUMIBLES</div>
-                        <h3>CARTUCHOS</h3>
-                        <div class="card-average">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            (4)
-                           
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                imagen 
+                                iconos de favoritos
+                            -->
+
                         </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
                             <div class="card-price">
                                 <span class="price">
                                     <small>$</small>10,00.00</span>
@@ -71,25 +93,25 @@
                                     <small>$</small>12,000.00</span>
 
                             </div>
-                        <!-- 
-                            categoria
-                            titulo
-                            calificacion
-                            precio 
-                            
-                        -->
+                            <!-- 
+                                categoria
+                                titulo
+                                calificacion
+                                precio 
+                                
+                            -->
 
-                    </div>
+                        </div>
 
-                    <div class="card-footer">
-                          <div class="card-selection">
-                            <div class="version">
-                                <label for="selection-label">Version</label>
-                                <select name="version" id="version">
-                                    <option value="pro">Alto rendimiento</option>
-                                    <option value="reg">Regular rendimiento</option>
-                                </select>
-                            </div>
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
                                 <div class="quantity">
                                     <p class="selection-label">Cantidad</p>
                                     <div class="quantity-actions">
@@ -98,19 +120,932 @@
                                         <button><i class="fa-solid fa-plus"></i></button>
                                     </div>
                                 </div>
-                          </div>  
+                            </div>
                             <button class="add-to-card">
                                 Añadir <i class="fa-solid fa-chevron-right"></i>
                             </button>
 
                             <!-- 
-                                seleccion boton de añadir a la card
-                            -->
-                    </div>
+                                    seleccion boton de añadir a la card
+                                -->
+                        </div>
 
 
-                </article>
+                    </article>
+                </div>
+                <div class="card-wrapper">
 
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                    imagen 
+                                    iconos de favoritos
+                                -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                    categoria
+                                    titulo
+                                    calificacion
+                                    precio 
+                                    
+                                -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                        seleccion boton de añadir a la card
+                                    -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                        imagen 
+                                        iconos de favoritos
+                                    -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                        categoria
+                                        titulo
+                                        calificacion
+                                        precio 
+                                        
+                                    -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                            seleccion boton de añadir a la card
+                                        -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                            imagen 
+                                            iconos de favoritos
+                                        -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                            categoria
+                                            titulo
+                                            calificacion
+                                            precio 
+                                            
+                                        -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                seleccion boton de añadir a la card
+                                            -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                                imagen 
+                                                iconos de favoritos
+                                            -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                                categoria
+                                                titulo
+                                                calificacion
+                                                precio 
+                                                
+                                            -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                    seleccion boton de añadir a la card
+                                                -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                                    imagen 
+                                                    iconos de favoritos
+                                                -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                                    categoria
+                                                    titulo
+                                                    calificacion
+                                                    precio 
+                                                    
+                                                -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                        seleccion boton de añadir a la card
+                                                    -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                                        imagen 
+                                                        iconos de favoritos
+                                                    -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                                        categoria
+                                                        titulo
+                                                        calificacion
+                                                        precio 
+                                                        
+                                                    -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                            seleccion boton de añadir a la card
+                                                        -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                                            imagen 
+                                                            iconos de favoritos
+                                                        -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                                            categoria
+                                                            titulo
+                                                            calificacion
+                                                            precio 
+                                                            
+                                                        -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                                seleccion boton de añadir a la card
+                                                            -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                                                imagen 
+                                                                iconos de favoritos
+                                                            -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                                                categoria
+                                                                titulo
+                                                                calificacion
+                                                                precio 
+                                                                
+                                                            -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                                    seleccion boton de añadir a la card
+                                                                -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                                                    imagen 
+                                                                    iconos de favoritos
+                                                                -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                                                    categoria
+                                                                    titulo
+                                                                    calificacion
+                                                                    precio 
+                                                                    
+                                                                -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                                        seleccion boton de añadir a la card
+                                                                    -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                                                        imagen 
+                                                                        iconos de favoritos
+                                                                    -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                                                        categoria
+                                                                        titulo
+                                                                        calificacion
+                                                                        precio 
+                                                                        
+                                                                    -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                                            seleccion boton de añadir a la card
+                                                                        -->
+                        </div>
+
+
+                    </article>
+                </div>
+                <div class="card-wrapper">
+
+
+                    <article class="card">
+
+                        <div class="card-header">
+
+                            <img class="card-img card-img-1" src="/assets/images/productos/hp 60.png" alt="hp60"
+                                srcset="/assets/images/productos/hp 60.png">
+
+                            <img class="card-img card-img-2" src="/assets/images/productos/hp 712.png" alt="hp712"
+                                srcset="/assets/images/productos/hp 712.png">
+
+                            <div class="actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+
+                            <!-- 
+                                                                            imagen 
+                                                                            iconos de favoritos
+                                                                        -->
+
+                        </div>
+                        <div class="class-main">
+                            <div class="div-category">CONSUMIBLES</div>
+                            <h3>CARTUCHOS</h3>
+                            <div class="card-average">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                (4)
+
+                            </div>
+                            <div class="card-price">
+                                <span class="price">
+                                    <small>$</small>10,00.00</span>
+                                <span class="normal-price">
+                                    <small>$</small>12,000.00</span>
+
+                            </div>
+                            <!-- 
+                                                                            categoria
+                                                                            titulo
+                                                                            calificacion
+                                                                            precio 
+                                                                            
+                                                                        -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="card-selection">
+                                <div class="version">
+                                    <label for="selection-label">Version</label>
+                                    <select name="version" id="version">
+                                        <option value="pro">Alto rendimiento</option>
+                                        <option value="reg">Regular rendimiento</option>
+                                    </select>
+                                </div>
+                                <div class="quantity">
+                                    <p class="selection-label">Cantidad</p>
+                                    <div class="quantity-actions">
+                                        <button><i class="fa-solid fa-minus"></i></button>
+                                        <div> 1 </div>
+                                        <button><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-to-card">
+                                Añadir <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+
+                            <!-- 
+                                                                                seleccion boton de añadir a la card
+                                                                            -->
+                        </div>
+
+
+                    </article>
+                </div>
             </div>
         </section>
 
@@ -126,7 +1061,7 @@
     <footer class="main-footer">
 
         <section class="footer-section footer-social">
-            FOOTER SOCIAL
+
             <a class="footer-social-link" href="http://google.com" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>Linkedin
             </a>
