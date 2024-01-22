@@ -1,4 +1,4 @@
-@import url ('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Outfit:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Outfit:wght@300;400;600;700&display=swap');
 
 
 :root {
@@ -79,11 +79,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    justify-content: center;
 } 
 
 .card-wrapper {
     display: flex;
-    flex: 1;
     justify-content: center;
 }
 
@@ -123,11 +123,9 @@ actions i:hover {
     object-fit: cover;
     position: absolute;
     transition: opacity .9s ease-in-out, rotate .5s ease-in-out;
-    
-    
-
-    
+     
 }
+
 .card-header .card-img-2 {
     opacity: 0;
 }
@@ -244,6 +242,7 @@ actions i:hover {
     background-color: var(--font-card-color);
     color: var(--secondary-color);
 
+}
 .card-selection .version select {
     padding: 10px 35px 10px 15px;
     width: 100%;
@@ -324,5 +323,4 @@ actions i:hover {
 .footer-contact {
     padding-left: 1rem;
 }
-
 
