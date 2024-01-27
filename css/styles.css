@@ -1,31 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Outfit:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Outfit:wght@300;400;600;700&display=swap');
+
 
 :root {
   --font-card-color: #173334;
   --secondary-color: #feb02f;
   --gray-color: #c4c4c4;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, sans-serif;
+body{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
 }
 
+
+/*  ?================= HEADER SECTION================= */
+
 .main-header {
-  background-color: var(--secondary-color);
-  width: 100%;
-  padding: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+    background-color:var(--secondary-color);
+    width: 100%;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .main-banner {
@@ -34,10 +37,30 @@ body {
   position: relative;
 }
 
-.banner-img {
-  max-width: 1940px;
+
+ul.nav-list {
+    background-color: crimson;
+    list-style: none;
+    display: flex;
+
 }
 
+.nav-item {
+    padding: 1rem 1.5rem;
+}
+
+
+/* ?=======HEADER SECTION END =========*/
+
+
+
+.banner-img {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
 .banner-info {
   position: absolute;
   left: 10%;
@@ -57,7 +80,7 @@ body {
 }
 
 .banner-info p {
-  text-indent: 1rem;
+    text-indent: 1rem;
 }
 .main-container {
   flex-grow: 1;
@@ -76,18 +99,18 @@ body {
 }
 
 .card-wrapper {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
-  width: 400px;
-  height: auto;
-  border: 1px solid #0f0101;
-  border-radius: 5px;
-  overflow: hidden;
-  font-family: "Outfit" sans-serif;
-  font-size: 14px;
+    width:400px;
+    height:auto;
+    border: 1px solid #0f0101;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Outfit' sans-serif;
+    font-size: 14px;
 }
 .card-header {
   height: 235px;
@@ -110,11 +133,12 @@ actions i:hover {
 }
 
 .card-img {
-  width: 70%;
-  height: 235px;
-  object-fit: cover;
-  position: absolute;
-  transition: opacity 0.9s ease-in-out, rotate 0.5s ease-in-out;
+    width: 70%;
+    height: 235px;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity .9s ease-in-out, rotate .5s ease-in-out;
+     
 }
 
 .card-header .card-img-2 {
@@ -226,30 +250,52 @@ actions i:hover {
 }
 
 .add-to-card {
-  margin-top: 10px;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  background-color: var(--secondary-color);
-  color: var(--font-card-color);
-  padding: 11.3px 15px;
-  border-radius: 10px;
-  font-weight: 600;
-  line-height: 1;
-  font-size: 15px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-  transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--secondary-color);
+    color: var(--font-card-color);
+    padding: 11.3px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 15px;
+    position: relative;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    
 }
 .add-to-card:hover {
-  background-color: var(--font-card-color);
-  color: var(--secondary-color);
+    background-color: var(--font-card-color);
+    color: var(--secondary-color);
+
+}
+.card-selection .version select {
+    padding: 10px 35px 10px 15px;
+    width: 100%;
+    border: 1px solid var(--gray-color);
+    height: 42px;
+    line-height: 20px;
+    appearance: none;
+    cursor: pointer;
+    border-radius: 11px;
+    background-color: transparent;
+    background: url(https://grocery-workdo.myshopify.com/cdn/shop/t/3/assets/arrow-acc-dark.svg) no-repeat;
+    background-size: 12px;
+    background-position: calc(100% - 15px) 50%;
 }
 
+
+
+.card-version {
+    display: flex;
+    flex-direction: column;
+}
 /* # CLASES DE LA SECCION FOOTER */
 
 .main-footer {
@@ -281,8 +327,9 @@ actions i:hover {
 }
 
 .footer-social-link:hover {
-  color: aqua;
-  font-size: 1.2rem;
+    color: aqua;
+    font-size: 1.2rem;
+    
 }
 
 .footer-brand {
@@ -306,3 +353,4 @@ actions i:hover {
 .footer-contact {
   padding-left: 1rem;
 }
+
