@@ -324,3 +324,14 @@ actions i:hover {
     padding-left: 1rem;
 }
 
+.barra-users > * {
+    /* background: url(/assets/images/banner.png); */
+    border: 1px solid var(--gray-color);
+    text-align: center;
+    padding: 8px;
+}
+
+.tabla-users td,tr:nth-child(even) {
+    background-color: #dddddd;
+    border: 1px solid var(--secondary-color)
+}
